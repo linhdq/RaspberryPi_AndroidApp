@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/background"
+        android:scaleType="fitXY"
+        />
+    <View
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:id="@+id/view__"
+        android:layout_centerHorizontal="true"
+        />
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:src="@drawable/btn_switch_off"
+        android:id="@+id/btn_control_led_01"
+        android:layout_toLeftOf="@id/view__"
+        android:layout_marginRight="10dp"
+        />
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:src="@drawable/btn_switch_off"
+        android:id="@+id/btn_control_led_02"
+        android:layout_toRightOf="@id/view__"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="Led 01"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:textColor="@color/grey_400"
+        android:textStyle="bold"
+        android:layout_above="@id/btn_control_led_01"
+        android:layout_toLeftOf="@id/view__"
+        android:layout_marginRight="10dp"
+        />
+    <TextView
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="Led 02"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:textColor="@color/grey_400"
+        android:textStyle="bold"
+        android:layout_above="@id/btn_control_led_01"
+        android:layout_toRightOf="@id/view__"
+        android:layout_marginLeft="10dp"
+        />
+</RelativeLayout>

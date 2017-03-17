@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1071221559737",
+    "firebase_url": "https://raspberrypi-9720d.firebaseio.com",
+    "project_id": "raspberrypi-9720d",
+    "storage_bucket": "raspberrypi-9720d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1071221559737:android:f5fac876034afbdb",
+        "android_client_info": {
+          "package_name": "vn.com.ldz.raspberrypi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1071221559737-i5n10m38ko3e8fbd47ek9a0uhlmnpb6g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnvOpNSu6QcREetKjuXZV-y_70fCZKtz4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
